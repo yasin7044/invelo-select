@@ -57,6 +57,19 @@ const optionSlotItem = ref([
 
 <template>
   <section class="p-20">
+    <div class>
+      <a
+        href="https://github1s.com/yasin7044/invelo-select"
+        class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        >Code Link
+      </a>
+      <p></p>
+      <b>ISelect.vue</b> <code>src/components/ISelect.vue</code>
+      <div>
+        is the component for a select component that handles a 1D array, an
+        array of objects, dynamic key-value pairs, and also slots.
+      </div>
+    </div>
     <CodeSelect
       :select="select"
       :options="options"
